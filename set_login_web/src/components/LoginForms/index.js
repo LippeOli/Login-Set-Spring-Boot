@@ -47,7 +47,7 @@ const LoginForms = () => {
   };
 
   return (
-    <div>
+    <div className='container'>
       <h1 className='title'>Cadastro de Usuário</h1>
       <form className='box' onSubmit={handleSubmit}>
       <input
